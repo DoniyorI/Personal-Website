@@ -14,18 +14,23 @@ import Aboutme from "./components/aboutme";
 function App() {
   return (
     <>
-      <Navbar bg="light" expand="lg">
+      <Navbar 
+        className="shadow mb-5 bg-white rounded justify-content-end navtext"
+        bg="myNav"
+        expand="lg"
+        fixed="top"
+        >
         <Container>
           <Navbar.Brand href="/">
             <img src="https://i.imgur.com/Oqa6ONv.png" height={60} width={60} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/experiance">Experiance</Nav.Link>
-              <Nav.Link href="/projects">Projects</Nav.Link>
-              <Nav.Link href="/aboutme">About me</Nav.Link>
+            <Nav className="ms-auto">
+              <Nav.Link className="text" href="/">Home</Nav.Link>
+              <Nav.Link className="text" href="/experiance">Experiance</Nav.Link>
+              <Nav.Link className="text" href="/projects">Projects</Nav.Link>
+              <Nav.Link className="text" href="/aboutme">About me</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
