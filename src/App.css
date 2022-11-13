@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+.bg {
+  background-image: url(./assets/Background_1.png);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.homebg{
+  background-image: url(./assets/slide_show/Photo_6.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box{
+  height: 70%;
+  width: 85%;
+  background-color: #37474F;
+  translate: 35%;
+  margin-top: 15%;
+  box-shadow: -7px 7px 5px;
+}
