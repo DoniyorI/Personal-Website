@@ -1,14 +1,12 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Card, Col, Container, Navbar, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 
-import { EmitFlags } from "typescript";
 
 export type Props = {
   content?: string;
 };
 const Home = () => {
     function email(){
-        
     }
   return (
     <>

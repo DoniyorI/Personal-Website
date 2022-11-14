@@ -7,6 +7,9 @@ export type Props = {
   const Experiance = () => {
       return (
         <>
+          <div className="bg">
+            
+          </div>
         </>
       );
     };

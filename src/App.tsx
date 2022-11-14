@@ -30,10 +30,9 @@ function App() {
   return (
     <>
       <Navbar 
-        className="shadow mb-5 bg-white rounded justify-content-end navtext"
+        className="shadow rounded justify-content-end navtext navpad"
         bg="myNav"
         expand="lg"
-        fixed="top"
         >
         <Container>
           <Navbar.Brand href="/">
@@ -58,7 +57,7 @@ function App() {
           <Route path="/aboutme" element={<Aboutme/>} />
         </Routes>
       </BrowserRouter>
-
+      
       <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <div className='me-5 d-none d-lg-block'>
