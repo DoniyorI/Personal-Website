@@ -57,11 +57,11 @@ function App() {
           <Route path="/aboutme" element={<Aboutme/>} />
         </Routes>
       </BrowserRouter>
-      
+
       <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
-      <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
+      <section className='d-flex justify-content-center justify-content-lg-between p-3 border-bottom'>
         <div className='me-5 d-none d-lg-block'>
-          <span>Get connected with us on social networks:</span>
+          <span>Get connected with me on social networks:</span>
         </div>
 
         <div>
@@ -85,11 +85,11 @@ function App() {
       </section>
 
       <section className=''>
-        <MDBContainer className='text-center text-md-start mt-5'>
+        <MDBContainer className='text-center text-md-start mt-4'>
           <MDBRow className='mt-3'>
             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>
-                <img src="https://i.imgur.com/Oqa6ONv.png" height={125} width={125} />
+                <img src="https://i.imgur.com/Oqa6ONv.png" height={175} width={175} />
                 <MDBIcon className="me-3" />
               </h6>
             </MDBCol>
@@ -141,7 +141,7 @@ function App() {
       </section>
 
       <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-        © 2021 Copyright:
+        © 2022 Copyright:
         <a className='text-reset fw-bold' href=''>
           Doniyori.com
         </a>
