@@ -15,10 +15,11 @@ const Home = () => {
           <Row>
             <Col>
               <div className="box block">
-                <h1 className="text1">Doniyor<br></br>Ismatilloev</h1>
-                <h2 className="text2">Software Engineer</h2>
-                <br></br>
-                <div>
+                <div className="css-typing">
+                  <p className="text1">Hi</p>
+                  <p className="text4 ">I'm Doniyor</p>
+                  <p className="text2">Software Engineer</p>
+                  <br></br>
                 </div>
               </div>
             </Col>
